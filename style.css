@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 100%;
+    height: 500px;
+    background-image: url(https://ecopolitic.com.ua/wp-content/uploads/2022/09/shutterstock_1914789118.jpg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    color: khaki;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    margin: 0;
+}
+
+article > section {
+    color: #0066CC;
+    font-size: 18px;
+    margin: 50px 250px 50px 250px;
+    text-align: center;
+}
+p {
+    margin-bottom: 10px;
+}
+h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+nav ul {
+    margin: 15px 0 0 0;
+    list-style-type: none;
+    background-color: rgba(255,255,255, 0.3);
+    padding: 25px;
+}
+
+nav li {
+    font-size: 20px;
+    display: inline;
+    padding: 50px;
+    color: #0066CC;
+}
+
+nav a {
+    color: khaki;
+    text-decoration: none;
+}
+
+    nav a:hover {
+        color: #0066CC;
+    }
+
+.button {
+    background-color: lightgoldenrodyellow;
+    border: 2px solid #0066CC;
+    color: #0066CC;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition-duration: 0.4s;
+}
+
+    .button:hover {
+        background-color: #0066CC;
+        color: lightgoldenrodyellow;
+    }
+
+.header2 {
+    background-color: lightgoldenrodyellow;
+    margin: 0;
+}
+
+.hat2 {
+    text-align: center;
+    padding: 15px;
+    color: lightgoldenrodyellow;
+    background-color: darkolivegreen;
+}
+
+.nav2 ul {
+    list-style-type: none;
+    background-color: rosybrown;
+    padding: 25px;
+}
+
+.nav2 li {
+    font-size: 20px;
+    display: inline;
+    padding: 50px;
+    color: lightgoldenrodyellow;
+}
+
+.nav2 a {
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+    .nav2 a:hover {
+        color: lightgoldenrodyellow;
+    }
+
+section {
+    color: darkolivegreen;
+    font-size: 18px;
+    margin: 50px 100px 50px 100px;
+}
+p {
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+    text-align: center;
+    color: darkolivegreen;
+    font-size: 18px;
+    margin: 50px 100px 50px 100px;
+}
+
+
+th {
+    background-color: darkolivegreen;
+    color: lightgoldenrodyellow;
+}
+
+td, th {
+    padding: 10px;
+    
+}
+
+tr:nth-child(even) {
+    color: rosybrown;
+}
+
+.smth {
+    display: flex;
+}
+
+figure {
+    width: 400px;
+    background-color: rosybrown;
+    margin: 50px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+    figure img {
+        width: 100%;
+    }
+
+figcaption {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: lightgoldenrodyellow;
+}
